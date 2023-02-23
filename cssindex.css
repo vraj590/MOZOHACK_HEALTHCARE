@@ -1,6 +1,13 @@
+h1.bigText{
+  font-size: 130px;
+  color: rgb(255, 250, 244);
+}
+
+
 nav {
-    background-color: #333;
+    background-color: transparent;
     overflow: hidden;
+    transition: color 1s ease 0s;
   }
   
   nav ul {
@@ -11,7 +18,7 @@ nav {
   }
   
   nav li {
-    float: left;
+    float: right;
   }
   
   nav li a {
@@ -23,12 +30,20 @@ nav {
   }
   
   nav li a:hover {
-    background-color: #111;
+    background-color: rgb(22, 18, 18);
   }
+
+  
   footer {
+    position: absolute;
+    bottom: 0;
+    width: 99%;
+    height:100px;
     background-color: #f7f7f7;
     padding: 30px 0;
   }
+
+  
   
   .footer-container {
     max-width: 1200px;
@@ -40,8 +55,8 @@ nav {
   }
   
   .footer-left {
-    width: 45%;
-    margin-bottom: 30px;
+    width: 35%;
+    margin-bottom: 20px;
   }
   
   .footer-left h3 {
